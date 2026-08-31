@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "health-gateway",
+  "displayName": "Health Gateway",
+  "version": "1.0.0",
+  "description": "Explore the Apple Health data you choose to sync with Health Gateway.",
+  "author": {
+    "name": "Good Feels, Inc.",
+    "email": "hello@getgoodfeels.com",
+    "url": "https://healthgateway.app"
+  },
+  "homepage": "https://healthgateway.app/setup",
+  "repository": "https://github.com/Good-Feels/health-gateway-claude",
+  "license": "Apache-2.0",
+  "keywords": [
+    "apple-health",
+    "healthkit",
+    "wellness",
+    "mcp"
+  ],
+  "defaultEnabled": false
+}

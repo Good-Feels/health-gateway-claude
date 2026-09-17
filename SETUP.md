@@ -1,15 +1,15 @@
 ---
 name: health-gateway-setup
-description: Connect Health Gateway to Claude after installing the plugin, or troubleshoot a disconnected Health Gateway connector.
+description: Connect A Good Sign to Claude after installing the plugin, or troubleshoot a disconnected A Good Sign connector.
 disable-model-invocation: true
 ---
 
-# Connect Health Gateway
+# Connect A Good Sign
 
-Health Gateway gives Claude read-only access to the Apple Health categories the
-user chose to sync from the Health Gateway iPhone app.
+A Good Sign gives Claude read-only access to the Apple Health categories the
+user chose to sync from the A Good Sign iPhone app.
 
-1. Confirm the user has installed Health Gateway on iPhone, signed in, selected
+1. Confirm the user has installed A Good Sign on iPhone, signed in, selected
    Apple Health categories, completed a sync, and has an active subscription.
 2. Enable this plugin if it is disabled. The bundled `health-gateway` remote MCP
    connection uses `https://api.healthgateway.app/mcp`.
@@ -17,9 +17,9 @@ user chose to sync from the Health Gateway iPhone app.
    Never start overlapping authorization attempts or repeatedly retry while a
    browser flow is still open.
 4. The user should sign in with the same Apple account used in the iPhone app.
-   If Health Gateway offers an account-link code, follow the on-screen steps.
+   If A Good Sign offers an account-link code, follow the on-screen steps.
 5. After the connection reports ready, verify it with a single read-only request:
-   “What Health Gateway data is available for me right now?”
+   “What A Good Sign data is available for me right now?”
 
 If authorization fails, preserve the error message, wait for the current flow
 to finish, and retry once. For help, send the user to

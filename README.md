@@ -1,14 +1,14 @@
-# Health Gateway for Claude
+# A Good Sign for Claude
 
-Health Gateway lets Claude explore the Apple Health categories a user chooses
-to sync from the Health Gateway iPhone app. The plugin connects to the first-party
+A Good Sign lets Claude explore the Apple Health categories a user chooses
+to sync from the A Good Sign iPhone app. The plugin connects to the first-party
 OAuth-protected remote MCP server and includes guidance for clear, cautious
 health-data summaries.
 
 ## Requirements
 
-- Health Gateway installed and synced on iPhone
-- An active Health Gateway subscription
+- A Good Sign installed and synced on iPhone
+- An active A Good Sign subscription
 - The same Sign in with Apple account in the app and browser authorization flow
 
 The connector is read-only for Apple Health. The separate feedback tool can

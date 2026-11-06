@@ -23,5 +23,5 @@ user chose to sync from the A Good Sign iPhone app.
 
 If authorization fails, preserve the error message, wait for the current flow
 to finish, and retry once. For help, send the user to
-https://healthgateway.app/support. Never request an Apple password, Health data,
+https://agoodsign.app/support. Never request an Apple password, Health data,
 OAuth token, or authorization code in chat.

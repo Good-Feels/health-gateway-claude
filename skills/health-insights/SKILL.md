@@ -25,4 +25,4 @@ Health history.
   a cause, or make treatment or safety claims from personal tracking data.
 - End with a concise answer and, when useful, one sensible follow-up question.
 
-The public prompt library is at https://healthgateway.app/prompts.
+The public prompt library is at https://agoodsign.app/prompts.
